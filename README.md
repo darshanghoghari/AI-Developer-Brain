@@ -222,6 +222,18 @@ Please read **CONTRIBUTING.md** before submitting a pull request.
 
 ---
 
+# 🏷️ Versions
+
+Navigate through the available versions and development branches of **AI Developer Brain**:
+
+| Version / Branch | Status | Description | Navigation |
+| :--- | :---: | :--- | :--- |
+| **[v1.0 (brain-v1)](https://github.com/darshanghoghari/AI-Developer-Brain/tree/brain-v1)** | 🚧 **In Development** | **Coming soon...** Foundational release featuring engineering standards, scalable architectural blueprints, and AI workflows. | ➡️ [Navigate to `brain-v1` Branch](https://github.com/darshanghoghari/AI-Developer-Brain/tree/brain-v1) |
+
+> 💡 **Tip:** To switch to this version locally via terminal, run: `git checkout brain-v1`
+
+---
+
 # 🌟 Why This Repository?
 
 Most repositories focus on **code**.
