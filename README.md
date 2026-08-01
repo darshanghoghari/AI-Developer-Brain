@@ -36,6 +36,7 @@ As AI capabilities evolve from basic chat autocomplete to autonomous multi-file 
 | :--- | :---: | :--- | :--- | :--- |
 | **`v1.0`** <br> *(branch: `brain-v1`)* | 📚 **Stable Ref** <br> *(Encyclopedia)* | **Foundational Knowledge Hub** <br> Comprehensive domain library structured across 15+ specialized categorical subfolders. | Exhaustive reference collection covering Backend, Frontend, Mobile, Database, Cloud, DevOps, testing strategies, and QA checklists. Ideal for human study and deep offline learning. | ➡️ [Navigate to `brain-v1`](https://github.com/darshanghoghari/AI-Developer-Brain/tree/brain-v1) |
 | **`v2.0` / `v2.1`** <br> *(branch: `main` / `brain-v2`)* | 🚀 **Active Core** <br> *(Autonomous)* | **Smart Agentic Core (3-Root Hub)** <br> Re-architected for ultra-low token latency and autonomous agent execution without context clutter. | • **Interactive Q&A Planning ("Grill-Me" Loop) & Fast-Track Overrides** <br> • **One-Shot Zero-Regression Shield & Greenfield Exemptions** <br> • **Self-Updating Memory Cortex (`.ai-brain/`)** that learns over time! <br> • **Master Execution Playbook & Command Vault** | ➡️ [View Active Core](./HOW_TO_WORK.md) |
+| **`v3.0`** <br> *(branch: `smart-care`)* | 🌟 **Coming Soon** <br> *(Next-Gen R&D)* | **Smart Care & Self-Healing Core** <br> The upcoming revolutionary framework designed for automated code remediation, system health diagnostics, and smart dependency care. | • **Automated Self-Healing Defect Patrols & Regression Resolvers** <br> • **Intelligent Project Health & Dependency Vulnerability Scanners** <br> • **Interactive CLI Scaffolding Utilities (`npx create-ai-brain`)** <br> • *Stay tuned for groundbreaking innovations coming soon!* | ➡️ [Explore `smart-care`](https://github.com/darshanghoghari/AI-Developer-Brain/tree/smart-care) |
 
 ### 💻 Switching Branches via Git CLI
 To evaluate different architectural versions locally on your machine, run these simple terminal commands:
@@ -50,6 +51,9 @@ git checkout brain-v1
 git checkout main
 # or
 git checkout brain-v2
+
+# Explore upcoming next-gen R&D innovations (Coming Soon!):
+git checkout smart-care
 ```
 
 ---
