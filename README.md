@@ -1,193 +1,169 @@
-# 🧠 AI Developer Brain
+---
+title: "AI Developer Brain v2.1 Repository Root"
+type: "master-repository-hub"
+version: "2.1.0"
+---
 
-> **A Universal, Tool-Agnostic AI Engineering Knowledge Base & Plug-and-Play "Individual Project Brain" Starter Ecosystem for Building High-Scale Production Software.**
+# 🧠 AI Developer Brain v2.1
 
+> **The Smart, Concise, Self-Updating & Tool-Agnostic AI Engineering Hub and "Individual Project Brain" Starter Ecosystem for High-Scale Production Software.**
+
+[![Version: 2.1.0](https://img.shields.io/badge/Version-v2.1_Smart_Core-00E5FF)](https://github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![AI Architecture: 4-Layer High-Density](https://img.shields.io/badge/AI_Architecture-4--Layer_High--Density-8A2BE2)](#-the-4-layer-high-density-architecture)
-[![Compatibility: Tool-Agnostic](https://img.shields.io/badge/Compatibility-Cursor_%7C_Windsurf_%7C_Claude_%7C_Gemini_%7C_Copilot-00E5FF)](#-universal-ai-tool-compatibility-matrix)
+[![AI Architecture: Concise 3-Hub](https://img.shields.io/badge/Architecture-Concise_3--Root_Hub-8A2BE2)](#-the-v20-concise-3-root-architecture)
+[![Execution: Zero-Regression Shield](https://img.shields.io/badge/Execution-One--Shot_%7C_Zero--Regression-00C853)](#-smart-agent-engine-interactive-qa--zero-regression-shield)
 
 ---
 
-## 🎯 Purpose & Core Philosophy
+## 🎯 What is v2.1 (Smart, Concise & Self-Updating Agentic Core)?
 
-Modern software engineering involves tight collaboration between human developers and AI coding assistants. However, traditional documentation and legacy codebases fail when paired with AI assistants because they are verbose, unstructured, and tied to single IDE platforms or outdated paradigms—leading to LLM hallucination, security bugs, and architectural regression.
+Modern software engineering involves tight collaboration between developers and autonomous AI assistants (Cursor, Windsurf, Claude, Gemini). However, fragmented repositories with overly complex folder trees slow down context windows and induce hallucination or code regressions.
 
-The **AI Developer Brain** solves this by bridging **human engineering excellence with AI context windows**. It operates on a breakthrough metaphor:
-
-### 🌟 The "Human vs. Software Project Brain" Metaphor
-Just as every human being operates with a single brain that combines **Fundamental Education / Laws** (clean code, OWASP security rules, multi-language conventions) with **Personal Memory & Real-Time Experiences** (localized domain terminology, custom database schemas, historical trade-offs), **every software project requires its own localized AI Brain!**
-
-* **🌐 The Parent Cortex ([AI Developer Brain](./))**: Serves as the global repository of architectural wisdom, domain design guidelines (Backend, Web, Mobile, Admin Dashboards), and zero-hallucination execution rules.
-* **🤖 The Individual Project Brain (`.ai-brain/`)**: A modular starter kit drop-in that transforms any target repository into a self-aware application, teaching AI assistants exact domain terminology, calculation formulas, and CLI verification commands!
+**AI Developer Brain v2.1** completely revolutionizes developer AI integration by introducing four major breakthroughs:
+1. 📂 **Streamlined 3-Root Architecture (Less Folders, Easy Access)**: Consolidated 15+ sprawling subfolders into just 3 smart, intuitive command centers.
+2. 🗣️ **Interactive Q&A Planning Loop & Fast-Track Override**: Eliminates blind AI coding while preventing Q&A fatigue! Agents conduct structured interviews for complex choices, but autonomously fast-track execution when specs are complete.
+3. 🛡️ **One-Shot Zero-Regression Shield & Greenfield Exemption**: Hardened rules ensuring that existing functionality never breaks during feature additions, with intelligent exemptions for initial project scaffolding!
+4. 🔄 **Self-Updating Application Memory Loop**: Autonomous agents dynamically update local domain vocabulary and architecture decision logs (`.ai-brain/`) after every session so your localized project intelligence never stagnates!
 
 ---
 
-## ⚙️ How It Works: The 4-Layer High-Density Architecture
+## ⚙️ The v2.1 Concise 3-Root Architecture
+
+Instead of navigating dozen of fragmented directories, v2.1 provides instant access through 3 master pillars:
 
 ```mermaid
 graph TD
-    A["🤖 Any AI Assistant / Developer"] --> B["Layer 1: Universal Rules & Directives"]
-    A --> C["Layer 2: Domain Engineering Cortex"]
-    A --> D["Layer 3: Executable AI Workflows & Prompts"]
-    A --> E["Layer 4: Plug-and-Play Individual Project Brains"]
+    Root["🧠 AI Developer Brain v2.1 Repository Root"]
+    Root --> Root_A("AGENTS.md (Root AI Directives)")
+    Root --> Root_B("HOW_TO_WORK.md (Execution Playbook)")
+    Root --> Hub1["⚙️ /rules-and-workflows/"]
+    Root --> Hub2["📚 /standards/"]
+    Root --> Hub3["🚀 /starter-kit/"]
     
-    B -->|Zero-Hallucination Guardrails| B1("AGENTS.md & /rules/global-coding-guidelines.md")
-    C -->|Production Norms & Good vs. Bad Code| C1("/docs/: Admin, Mobile, Backend, Frontend, Security")
-    D -->|Deterministic Task Execution| D1("/workflows/ & /prompts/ state machines")
-    E -->|60-Second App Memory Deployment| E1("/templates/project-brain-starter/ -> /.ai-brain/")
+    Hub1 --> H1_B("interactive-qna-planning.md")
+    Hub1 --> H1_C("zero-regression-execution.md")
+    Hub1 --> H1_D("global-coding-guidelines.md")
+    
+    Hub2 --> H2_A("backend-and-cloud.md")
+    Hub2 --> H2_B("frontend-and-admin.md")
+    Hub2 --> H2_C("mobile-and-offline.md")
+    Hub2 --> H2_D("database-and-security.md")
+    Hub2 --> H2_E("testing-and-qa.md")
+    Hub2 --> H2_F("workspace-hub-organization.md")
+    
+    Hub3 --> H3_A("Plug-and-Play Local App Brain (.ai-brain/ & AGENTS.md)")
 ```
 
-### 1️⃣ Layer 1: Universal Rules & Directives (`/rules/` & `AGENTS.md`)
-Enforces strict baseline code cleanliness, SOLID design, boundary perimeter validation (Zod/Pydantic), OWASP Top 10 immunity, and Conventional Commits.
-* **[AGENTS.md](file:///d:/Experiments/AI-Developer-Brain/AGENTS.md)**: Master root instruction file designed to govern any autonomous coding agent.
-* **[rules/global-coding-guidelines.md](file:///d:/Experiments/AI-Developer-Brain/rules/global-coding-guidelines.md)**: Multi-language programming handbooks and complexity guardrails.
+### 1️⃣ `⚙️ /rules-and-workflows/` (Action & Governance Engine)
+Contains universal operational state machines and coding guardrails:
+* **[interactive-qna-planning.md](./rules-and-workflows/interactive-qna-planning.md)**: The "Grill-Me" protocol teaching agents how to conduct interactive Q&A interviews before generating code.
+* **[zero-regression-execution.md](./rules-and-workflows/zero-regression-execution.md)**: Pre-flight baseline test rules, atomic diff boundaries, and automated regression protection.
+* **[global-coding-guidelines.md](./rules-and-workflows/global-coding-guidelines.md)**: Universal clean architecture, SOLID principles, guard clauses, and variable naming conventions.
 
-### 2️⃣ Layer 2: Comprehensive Engineering Cortex (`/docs/`)
-Token-efficient, concrete specifications structured with mandatory **✅ Good (Production Standard) vs. ❌ Bad (Anti-Pattern)** comparative code snippets:
-* 🛡️ **[docs/admin/](file:///d:/Experiments/AI-Developer-Brain/docs/admin/README.md)**: **Enterprise Admin Dashboards & Backoffice Systems** (Dual-layer RBAC/ABAC authorization, server-side paginated Data Grids, background batch actions, and immutable audit logging trails).
-* 📱 **[docs/mobile/](file:///d:/Experiments/AI-Developer-Brain/docs/mobile/README.md)**: **Cross-Platform & Native Mobile Architecture** (Offline-first SQLite/Realm local sync engines, zero-cleartext token hardware vaults, background thread optimization for 60/120 FPS UI reliability).
-* ⚙️ **[docs/backend/](file:///d:/Experiments/AI-Developer-Brain/docs/backend/README.md)**: Node.js, TypeScript, NestJS, Python APIs, layered separation, JWT token rotation, and asynchronous Redis task queue processing.
-* 🌐 **[docs/frontend/](file:///d:/Experiments/AI-Developer-Brain/docs/frontend/README.md)**: React, Next.js, Vue, Tailwind CSS design tokens, state management hierarchy (Zustand, TanStack Query), and accessibility (a11y).
-* 🏗️ **[docs/architecture/](file:///d:/Experiments/AI-Developer-Brain/docs/architecture/README.md)**: Clean Architecture, Domain-Driven Design (DDD), Modular Monoliths, and Event-Driven messaging streams.
-* 🗄️ **[docs/database/](file:///d:/Experiments/AI-Developer-Brain/docs/database/README.md)**: Relational 3NF normalization, index modeling (B-Tree/GIN), Redis caching TTL policies, and safe schema migrations.
-* ☁️ **[docs/devops/](file:///d:/Experiments/AI-Developer-Brain/docs/devops/README.md)**: Multi-stage Docker containerization, Kubernetes helm structures, and GitHub Actions verification pipelines.
-* 🔒 **[docs/security/](file:///d:/Experiments/AI-Developer-Brain/docs/security/README.md)**: OWASP Top 10 mitigation, Argon2id/Bcrypt password hashing, AES-256-GCM encryption, and DDoS rate limiters.
-* ⚡ **[docs/performance/](file:///d:/Experiments/AI-Developer-Brain/docs/performance/README.md)** & 🧪 **[docs/testing/](file:///d:/Experiments/AI-Developer-Brain/docs/testing/README.md)**: Latency budgets (<200ms), 70/20/10 Testing Pyramid balance, and Test-Driven Development (TDD) bug resolution loops.
+### 2️⃣ `📚 /standards/` (Consolidated Domain Cortex)
+High-density, token-efficient engineering handbooks featuring mandatory **✅ Good (Production Standard) vs. ❌ Bad (Anti-Pattern)** real-world code snippets:
+* ⚙️ **[backend-and-cloud.md](./standards/backend-and-cloud.md)**: Node.js, NestJS, Python APIs, layered separation, JWT token rotation, Redis task queues, Docker, and K8s.
+* 🛡️ **[frontend-and-admin.md](./standards/frontend-and-admin.md)**: React, Next.js, Tailwind tokens, state management (Zustand/TanStack Query), dual-layer RBAC, server-side paginated Data Grids, and immutable audit logs.
+* 📱 **[mobile-and-offline.md](./standards/mobile-and-offline.md)**: Flutter, React Native, offline-first SQLite/Realm local sync engines, zero-cleartext token hardware vaults, and 120 FPS worker threads.
+* 🔒 **[database-and-security.md](./standards/database-and-security.md)**: PostgreSQL 3NF normalization, indexing, active OWASP Top 10 immunizations, Argon2id hashing, and DDoS rate limiters.
+* 🧪 **[testing-and-qa.md](./standards/testing-and-qa.md)**: 70/20/10 Testing Pyramid balance, Test-Driven Development (TDD) bug hunting, and e2e Cypress/Playwright patterns.
+* 🏛️ **[workspace-hub-organization.md](./standards/workspace-hub-organization.md)**: Numbered folder setup guide (`00-ai-brain`, `01-active-projects`) for structuring all your local machine repositories!
 
-### 3️⃣ Layer 3: Executable Workflows & Prompts (`/workflows/` & `/prompts/`)
-* **[workflows/](file:///d:/Experiments/AI-Developer-Brain/workflows/README.md)**: Deterministic, sequential step-by-step state machines guiding AI agents through complex feature builds, PR reviews, and TDD bug hunting.
-* **[prompts/](file:///d:/Experiments/AI-Developer-Brain/prompts/README.md)**: Curated high-precision zero-shot and chain-of-thought prompt instructions for system architecture design and security penetration audits.
-
-### 4️⃣ Layer 4: Plug-and-Play Local Project Brain (`/templates/project-brain-starter/`)
-A pre-configured starter kit containing customizable AI directives and a localized `.ai-brain/` memory cortex ready for immediate copy-pasting into any client project.
+### 3️⃣ `🚀 /starter-kit/` (Ready-to-Use Individual Project Brain)
+A plug-and-play starter template designed for immediate copy-pasting into any target client codebase (new or legacy) to instantly establish its localized AI memory cortex (`.ai-brain/` and `AGENTS.md`).
 
 ---
 
-## 🚀 How to Use: The Master Developer Playbook
+## 🗣️ Smart Agent Engine: Interactive Q&A & Zero-Regression Shield
 
-Whether you are starting from scratch or maintaining dozens of production codebases, utilize these three operational playbooks:
+In v2.0, autonomous agents operating on your codebase follow an intelligent, non-destructive lifecycle:
 
-### 📖 Scenario 1: Deploying an "Individual Brain" into a New or Legacy Project (60 Seconds!)
-Whenever you start a brand new mobile app or clone an old customer dashboard, inject an individualized AI Brain so your AI coding tool immediately operates like a domain expert:
+```mermaid
+sequenceDiagram
+    participant U as 👤 Developer (User)
+    participant A as 🤖 AI Assistant (v2.0)
+    participant C as 💻 Codebase & Tests
+    
+    U->>A: Submit Task / Feature Request
+    A->>A: Phase 1: Research & Draft Plan
+    A->>U: Phase 2: Interactive Q&A Interview (Asks clarifying design options)
+    U->>A: Provides answers & preferences
+    A->>A: Phase 3: Update Plan & Get Explicit Approval
+    A->>C: Phase 4: Pre-flight Baseline Tests (Verify green working state)
+    A->>C: Phase 5: Non-Destructive Atomic Diffs (Zero-Regression Shield)
+    A->>C: Phase 6: Run Regression Suite & Commit Cleanly!
+    A->>U: ✨ Report Flawless One-Shot Completion!
+```
+
+---
+
+## 🚀 How to Use: Step-by-Step Developer Playbooks
+
+> [!IMPORTANT]  
+> For the complete, definitive operational handbook detailing how developers and AI assistants collaborate across Interactive Q&A, Fast-Track Express mode, Greenfield setups, and the Self-Updating Memory Core, read our step-by-step master guide: **[🚀 HOW_TO_WORK.md (Master Execution Playbook)](./HOW_TO_WORK.md)**!
+
+### 📖 Playbook A: Deploying an "Individual Brain" into a New or Legacy Project (60 Seconds!)
+Just as every human has 1 individual brain combining education with personal memories, every software project requires its own localized memory cortex. To endow any app with autonomous intelligence:
 
 ```bash
 # 1. Navigate to your target application repository root:
 cd /path/to/my-saas-admin/
 
-# 2. Copy the Ready-to-Use starter package from your AI Developer Brain repository:
-cp -r /path/to/AI-Developer-Brain/templates/project-brain-starter/.ai-brain .
-cp /path/to/AI-Developer-Brain/templates/project-brain-starter/AGENTS.md .
+# 2. Copy the v2.0 Ready-to-Use starter kit directly into your app root:
+cp -r /path/to/AI-Developer-Brain/starter-kit/.ai-brain .
+cp /path/to/AI-Developer-Brain/starter-kit/AGENTS.md .
 
-# 3. Open AGENTS.md and .ai-brain/project-identity.md and customize bracketed values ({{PROJECT_NAME}}, {{TECH_STACK}}).
-# 4. Open your project in Cursor / Claude / Gemini — your app now has its own autonomous AI memory!
+# 3. Open AGENTS.md and .ai-brain/project-identity.md and customize bracketed placeholders ({{PROJECT_NAME}}, {{TECH_STACK}}).
+# 4. Open your app inside Cursor / Windsurf / Claude / Gemini — your project now has intelligent localized memory!
 ```
-* **What inside the local `.ai-brain/` Cortex?**
-  * `project-identity.md`: Locks down approved frameworks to prevent dependency hallucination.
-  * `domain-rules-and-vocabulary.md`: Teaches AI your business formulas and domain noun terminology.
-  * `architecture-decisions.md` (ADRs): Explains *WHY* existing patterns exist so AI doesn't break them during refactoring.
-  * `automated-verification-suite.md`: Gives AI exact CLI commands for running local tests and schema builds.
 
 ---
 
-### 📖 Scenario 2: Connecting to AI Editors (Cursor, Windsurf, Claude, Gemini)
-Because this repository is **100% Tool-Agnostic**, you can link it directly to your favorite developer runtime:
-* **In Cursor AI**: Symlink or copy `AGENTS.md` as your root `.cursorrules` file, or point Cursor Settings to read rules from your master repository pathway.
-* **In Windsurf / Codeium**: Reference `AGENTS.md` in `.windsurfrules`.
-* **In Antigravity / Gemini / Claude Code**: Point your CLI agent directly to `AGENTS.md` and task it using our workflows:
-  > *"Execute feature development workflow from `/workflows/` and reference `docs/admin/README.md` to construct our paginated data grids."*
-
----
-
-### 📖 Scenario 3: Organizing All Your Repositories on Hard Drive / Server
-To keep dozens of active, legacy, and test repositories clean and accessible to AI assistants, adopt our **Universal Workspace Hub Architecture** documented in **[docs/architecture/workspace-hub-organization.md](file:///d:/Experiments/AI-Developer-Brain/docs/architecture/workspace-hub-organization.md)**:
+### 📖 Playbook B: Organizing All Your Code Repositories on Hard Drive / Server
+To keep dozens of active, legacy, and R&D codebases cleanly sorted for AI assistant discovery, adopt our **Numbered Categorical Workspace Hub Architecture** documented in **[standards/workspace-hub-organization.md](./standards/workspace-hub-organization.md)**:
 
 ```text
-D:\Dev-Workspace\                       <-- Master Codebase Hub Root on your hard drive
+D:\Dev-Workspace\                       <-- Master Codebase Hub Root on your drive
 │
 ├── 🧠 00-ai-brain\                     <-- Central Intelligence (Place THIS repository here!)
 │   └── AI-Developer-Brain/             
 │
 ├── 🚀 01-active-projects\              <-- Live daily production repositories
-│   ├── admin-dashboards\               <-- e.g., CRM backoffice portals
-│   ├── backend-services\               <-- e.g., NestJS / Node microservices
-│   ├── mobile-apps\                    <-- e.g., Flutter / React Native applications
-│   └── fullstack-monorepos\            <-- e.g., Turborepo / Nx integrated SaaS suites
+│   ├── admin-dashboards\               <-- React / Next.js backoffice CRM portals
+│   ├── backend-services\               <-- Node / NestJS / Python API microservices
+│   └── mobile-apps\                    <-- Flutter / React Native mobile applications
 │
-├── 🛠️ 02-experiments-and-poc\           <-- Proof of Concepts & rapid AI R&D test environments
+├── 🛠️ 02-experiments-and-poc\           <-- Prototype testing & AI algorithm R&D trials
 │   └── ai-agent-benchmarks\
 │
-└── 📦 03-legacy-and-archive\           <-- Past completed client apps & maintenance projects
+└── 📦 03-legacy-and-archive\           <-- Past completed client apps & maintenance code
     └── 2023-legacy-billing-app\
 ```
-* **Why this is a Superpower**: Numerical prefixing (`00`, `01`, `02`) ensures your file explorers and AI IDE command palettes sort repositories in perfect logical priority!
-
----
-
-## 📂 Master Repository Navigation Tree
-
-```text
-AI-Developer-Brain/
-├── 🤖 AGENTS.md                                 # Master Universal AI Directives
-├── 📋 plan.md                                   # Repository Architecture & Phased Roadmap
-├── 📖 README.md                                 # [This File] Master documentation & guides
-│
-├── 📚 docs/                                     # Engineering Domain Cortex
-│   ├── 🛡️ admin/README.md                       # Admin portals, RBAC, paginated grids & audit logs
-│   ├── 📱 mobile/README.md                      # Flutter, React Native, Offline-first local sync
-│   ├── ⚙️ backend/README.md                     # Layered decoupling, REST, GraphQL, task queues
-│   ├── 🌐 frontend/README.md                    # React, Next.js, Tailwind token design systems
-│   ├── 🏗️ architecture/                         # Clean Architecture, DDD, Workspace Hub guide
-│   ├── 🗄️ database/README.md                    # PostgreSQL 3NF normalization, indexes, migrations
-│   ├── ☁️ devops/README.md                      # Multi-stage Docker, K8s, CI/CD Actions
-│   ├── 🔒 security/README.md                    # Active OWASP Top 10 mitigations & encryption
-│   ├── ⚡ performance/README.md                 # Latency budgets & memory leak prevention
-│   └── 🧪 testing/README.md                     # Testing Pyramid balance & TDD bug squashing
-│
-├── 📦 templates/                                # Plug-and-Play Scaffolding & Brain Starter
-│   ├── 🧠 project-brain-starter/                # READY-TO-USE Individual Project Brain Kit
-│   │   ├── README.md                            # 60-second installation deployment guide
-│   │   ├── AGENTS.md                            # Customized project directives template
-│   │   └── .ai-brain/                           # Localized app memory cortex (Identity, ADRs, CLI)
-│   ├── 📄 doc-template.md                       # Standard RAG documentation template
-│   └── 🔄 workflow-template.md                  # Autonomous agent execution workflow template
-│
-├── ⚖️ rules/                                    # Extended Global Agent Directives
-│   └── global-coding-guidelines.md              # Multi-language naming, guard clauses & concurrency
-│
-├── 🔄 workflows/README.md                       # Autonomous AI Step-by-Step State Machines
-├── 💡 prompts/README.md                         # Reusable System Design & Security Audit Prompts
-└── 🌟 examples/README.md                        # Reference production implementation architecture
-```
+* **Why it's a superpower**: Numerical prefixing (`00`, `01`, `02`) forces IDE file explorers and command palettes to sort repositories in logical architectural timeline priority!
 
 ---
 
 ## 🛠️ Universal AI Tool Compatibility Matrix
 
-| AI Platform / Editor | Recommended Integration Method | Capability & Scope |
+| AI Platform / Editor | Recommended Integration Method | v2.0 Smart Agent Capabilities |
 | :--- | :--- | :--- |
-| **Antigravity / Gemini** | Direct workspace root reading (`AGENTS.md`) | Full autonomous planning, file editing, terminal execution, and subagent orchestration. |
-| **Cursor AI** | Symlink/copy `AGENTS.md` to `.cursorrules` | Zero-hallucination real-time autocompletion and background chat agent refactoring. |
-| **Windsurf (Codeium)** | Reference `AGENTS.md` in `.windsurfrules` | Cascade workspace awareness and multi-file editing precision. |
-| **Claude Code (CLI)** | Load global instructions & `.ai-brain/` | High-precision architectural analysis and modular TDD task fulfillment. |
-| **GitHub Copilot** | Copy instructions to `.github/copilot-instructions.md` | Consistent production code completion adhering to local naming idioms. |
-| **Aider / Cline / Devin** | Specify terminal instruction context parameters | Automated issue resolution, test suite generation, and git diff management. |
+| **Antigravity / Gemini** | Direct workspace root reading (`AGENTS.md`) | Interactive Q&A interview loops, one-shot zero-regression execution, and automated subagent orchestration. |
+| **Cursor AI** | Symlink/copy `AGENTS.md` to root `.cursorrules` | Zero-hallucination code autocompletion, TDD unit test generators, and safe refactoring loops. |
+| **Windsurf (Codeium)** | Reference `AGENTS.md` in root `.windsurfrules` | Cascade workspace multi-file editing precision without breaking adjacent module features. |
+| **Claude Code (CLI)** | Point to global rules & local `.ai-brain/` | Deep structural architectural analysis, prompt reasoning, and high-density documentation generation. |
+| **GitHub Copilot** | Place guidelines in `.github/copilot-instructions.md` | Consistent production completion matching local naming idioms and domain vocabulary. |
 
 ---
 
 ## 🤝 Contributing & Standards
-
-We welcome engineering leaders, AI researchers, and developers to expand this open-source knowledge base!
-* **Token Density Mandate**: Ensure zero filler words. Guidelines must remain unambiguous and immediately actionable.
-* **Code Proof Requirement**: Every specification added to `/docs/` must follow **[templates/doc-template.md](file:///d:/Experiments/AI-Developer-Brain/templates/doc-template.md)**, supplying clear comparative **✅ Good (Production Standard) vs. ❌ Bad (Anti-Pattern)** snippets.
-* **RAG Frontmatter**: All documentation files must open with structured YAML frontmatter for programmatic AI retrieval.
+* **Token Density Mandate**: Eliminate filler words. Rules must remain clear and directly executable by LLMs.
+* **Code Proof Requirement**: Any architectural pattern added to `/standards/` must include explicit comparative **✅ Good (Production Standard) vs. ❌ Bad (Anti-Pattern)** TypeScript / Python / Bash snippets.
 
 ---
 
 ## 📜 License & Support
 
-This repository is proudly open-sourced under the **MIT License**.
-
-* ⭐ **Star this repository** if it transformed your software architecture!
-* 🍴 **Fork it** to build customized organization-specific AI developer brains!
-* 📢 **Share it** with your developer community to empower smarter, zero-hallucination AI engineering!
+This repository is open-sourced under the **MIT License**.
+* ⭐ **Star this repository** to bookmark your v2.0 Smart AI Engineering Core!
+* 🍴 **Fork it** to establish customized organization-specific AI developer brains!
+* 📢 **Share it** with your community to lead zero-hallucination, high-scale software engineering!

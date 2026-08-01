@@ -1,0 +1,3 @@
+# Scratch Workspace Placeholder
+
+This `.gitkeep` file preserves the `.ai-brain/scratch/` directory in Git while providing an ignored ephemeral workspace for AI assistants to store temporary logs, debug scripts, or diagnostic test outputs during autonomous sessions.
