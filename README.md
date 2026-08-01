@@ -154,4 +154,4 @@ If this project saves you time, prevents AI bugs, or helps you ship production c
 ## 📜 License
 This project is open-source and released under the **[MIT License](https://opensource.org/licenses/MIT)**. You are free to use, modify, and integrate this knowledge base into commercial, personal, or enterprise applications.
 
-*Crafted with precision by **Darshan Ghoghari** & community contributors.*
+*Crafted with precision by **Darshan Ghoghari** & community contributors....*
