@@ -1,0 +1,92 @@
+# Master Root Git Ignore
+# Ensures our root directory remains clean in git commits while allowing developers
+# to locally symlink AI IDE configuration files for guaranteed tool adoption.
+
+# 1. Ignore IDE adaptor symlinks created by .brain/scripts/setup-ide-adaptors.*
+/.cursorrules
+/.windsurfrules
+/.clinerules
+/.roorules
+/.aider.conf.yml
+/.github/copilot-instructions.md
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# 2. OS & system cache
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 3. Environment secrets & temporary scratch (Zero-Trust Deny List)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.id_rsa
+secrets.yml
+/.brain/scratch/*
+!/.brain/scratch/README.md
+
+# 4. Universal Any-Stack Build & Dependency Exclusions (projects/* Shield)
+# Prevents heavy dependencies & compiled artifacts from contaminating git & AI token buffers.
+
+# -- Node.js / Frontend / React / Vue / Next / Svelte --
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+
+# -- Python / Django / FastAPI --
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+htmlcov/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+uv.lock
+
+# -- Flutter / Dart / Mobile / React Native --
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+ios/Pods/
+ios/.symlinks/
+ios/build/
+android/app/build/
+android/.gradle/
+
+# -- Go / Rust / Java / .NET / Binary Outputs --
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+bin/
+obj/
+
+# 5. Testing & Coverage Data
+coverage/
+*.lcov
+.nyc_output/

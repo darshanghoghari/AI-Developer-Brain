@@ -1,0 +1,18 @@
+# Aider CLI Configuration (.aider.conf.yml v3.0)
+# Enables localized offline open-source models (Ollama/Llama/DeepSeek) and terminal
+# autonomous agents to cleanly interface with our AI Developer Brain.
+
+read:
+  - .brain/AGENTS.md
+  - .brain/AI_ROUTING_INDEX.md
+
+dark-mode: true
+attribute-author: false
+auto-commits: false
+dirty-commits: false
+test-cmd: "npm test -- --watchAll=false"
+
+# Preserve comments and enforce drop-in diffing per our context hygiene laws
+no-stream: false
+edit-format: diff
+chat-history-file: .brain/scratch/aider-history.log

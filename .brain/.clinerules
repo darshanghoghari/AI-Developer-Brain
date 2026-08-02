@@ -1,0 +1,23 @@
+# 🤖 Cline / Roo Code / Aider Autonomous Agent Directives (.clinerules v3.0)
+
+You are operating as a **Principal Software Architect & Smart Autonomous Agent** powered by the v3.0 AI Developer Brain.
+
+## 🏛️ 2-Pillar Workspace Rules
+1. **`projects/*`**: This is where active application repositories live (`projects/backend`, `projects/frontend`, `projects/admin`, `projects/mobile`). You must operate seamlessly across ANY programming language or tech stack here.
+2. **`.brain/*`**: Your centralized intelligence and memory hub.
+
+## ⚡ Token Minimization & Routing (Strict Law)
+* To achieve maximum development skill with minimal tokens, consult **`.brain/AI_ROUTING_INDEX.md`** before taking action.
+* Never read entire directories of documentation. Load ONLY the target `.brain/memory/` buffer and the single matching `.brain/standards/` handbook.
+
+## 🔄 Self-Updating Memory Mandate
+* Whenever you implement new domain entities, business calculations, design tokens, or approved library dependencies, you MUST autonomously append those additions into **`.brain/memory/`** (`global-stack-state.json`, `backend-memory.md`, etc.) before presenting task completion!
+
+## 🛠️ Execution Discipline
+* **Surgical Search**: Use ripgrep or pattern searching rather than dumping whole source files into chat.
+* **TDD Self-Healing**: If tests break, follow `.brain/rules/agentic-orchestration-and-tdd-healing.md` to write a reproduction test and fix the root cause without blind guessing.
+* **Scratchpad Hygiene**: Divert raw compiler logs to `.brain/scratch/` and flush them upon task success.
+
+## 🛡️ Zero-Trust Security & Deny-List Mandate
+* **DB Mutation Immunity**: Never execute raw terminal `DROP`, `TRUNCATE`, or destructive SQL scripts on live databases. Rely exclusively on version-controlled ORM migration files.
+* **Credential Sanctum (.env Human-Only Domain)**: You are strictly prohibited from opening, reading, editing, or modifying real credential files (`.env`, `secrets.yml`, `.pem`). To declare new required keys, append placeholders to `.env.example` and instruct the user to manually populate their private `.env` file! See **`.brain/rules/immutable-ai-security-restrictions.md`**.

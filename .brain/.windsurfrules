@@ -1,0 +1,21 @@
+# 🌊 Windsurf / Codeium Flow Rules (.windsurfrules v3.0)
+# Connects Windsurf Cascade AI assistants directly into the v3.0 AI Developer Brain.
+
+rules:
+  - id: token_minimal_routing
+    description: "Do not load all markdown guides into the context window. Read .brain/AI_ROUTING_INDEX.md first and dynamically load only the exact memory buffer and domain standard required for the task."
+
+  - id: any_stack_project_segregation
+    description: "All application source code must reside inside projects/ (backend, frontend, admin, or mobile). The agent must adapt universally to whatever programming language or framework is active."
+
+  - id: mandatory_memory_synchronization
+    description: "On every completed feature, schema migration, or dependency addition, automatically write structural updates into .brain/memory/ (e.g., backend-memory.md or frontend-memory.md) to save token context across future sessions."
+
+  - id: zero_regression_execution
+    description: "Run automated tests before editing established codebases. Apply non-destructive drop-in diffs. If regressions occur, auto-revert or trigger the TDD healing loop from .brain/rules/agentic-orchestration-and-tdd-healing.md."
+
+  - id: interactive_qna_and_fast_track
+    description: "If requirement ambiguity exists, initiate multiple-choice Q&A with the developer. If explicit specs or 'build fast' overrides are given, skip interview dialogs and immediately implement recommended production patterns."
+
+  - id: zero_trust_security_restrictions
+    description: "NEVER execute direct terminal SQL DB mutations (DROP/TRUNCATE) against live DBs; create version-controlled ORM migrations. NEVER open, read, or modify secret/credential files (.env, *.pem, secrets.yml). If new environment variables are needed, append empty keys to .env.example and instruct human developer to manually update their private .env file. See .brain/rules/immutable-ai-security-restrictions.md."

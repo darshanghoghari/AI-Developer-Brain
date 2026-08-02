@@ -1,0 +1,83 @@
+openapi: 3.1.0
+info:
+  title: v3.0 Universal AI Developer Brain - API Schema Contract Template
+  description: >-
+    Standard OpenAPI 3.1 schema agreement reference template for AI coding assistants
+    to design cross-stack interfaces between projects/backend and projects/frontend.
+  version: 3.0.0
+servers:
+  - url: https://api.yourdomain.com/v1
+    description: Production Cloud Server
+  - url: http://localhost:4000/v1
+    description: Local Dev Sandbox Environment
+
+paths:
+  /health:
+    get:
+      summary: System Health & Uptime Check
+      operationId: getHealthStatus
+      responses:
+        '200':
+          description: Service is online and responsive
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+
+components:
+  schemas:
+    SuccessResponse:
+      type: object
+      required:
+        - success
+        - statusCode
+        - data
+        - error
+      properties:
+        success:
+          type: boolean
+          example: true
+        statusCode:
+          type: integer
+          example: 200
+        data:
+          type: object
+          description: Payload returned by the API service
+          additionalProperties: true
+        error:
+          type: 'null'
+
+    ErrorResponse:
+      type: object
+      required:
+        - success
+        - statusCode
+        - data
+        - error
+      properties:
+        success:
+          type: boolean
+          example: false
+        statusCode:
+          type: integer
+          example: 400
+        data:
+          type: 'null'
+        error:
+          type: object
+          required:
+            - code
+            - message
+          properties:
+            code:
+              type: string
+              example: INVALID_PAYLOAD
+            message:
+              type: string
+              example: Request parameters did not satisfy validation schema.
+            fieldErrors:
+              type: object
+              additionalProperties:
+                type: array
+                items:
+                  type: string

@@ -1,0 +1,72 @@
+{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "version":  "3.0.0",
+    "lastUpdated":  "2026-08-02",
+    "description":  "Token-Minimal Active Architecture \u0026 Stack Intelligence Tracker. AI MUST read this file to instantly understand workspace technologies without scanning deep source code, and MUST autonomously update it whenever packages or frameworks change.",
+    "universalCompatibility":  "ANY_STACK_SUPPORTED",
+    "projects":  {
+                     "backend":  {
+                                     "path":  "projects/backend",
+                                     "status":  "UNINITIALIZED",
+                                     "primaryStack":  null,
+                                     "language":  null,
+                                     "framework":  null,
+                                     "database":  null,
+                                     "testRunner":  null,
+                                     "port":  null,
+                                     "keyDependencies":  [
+
+                                                         ]
+                                 },
+                     "frontend":  {
+                                      "path":  "projects/frontend",
+                                      "status":  "UNINITIALIZED",
+                                      "primaryStack":  null,
+                                      "language":  null,
+                                      "framework":  null,
+                                      "styling":  null,
+                                      "stateManagement":  null,
+                                      "port":  null,
+                                      "keyDependencies":  [
+
+                                                          ]
+                                  },
+                     "admin":  {
+                                   "path":  "projects/admin",
+                                   "status":  "UNINITIALIZED",
+                                   "primaryStack":  null,
+                                   "language":  null,
+                                   "framework":  null,
+                                   "uiLibrary":  null,
+                                   "authProvider":  null,
+                                   "port":  null,
+                                   "keyDependencies":  [
+
+                                                       ]
+                               },
+                     "mobile":  {
+                                    "path":  "projects/mobile",
+                                    "status":  "UNINITIALIZED",
+                                    "primaryStack":  null,
+                                    "language":  null,
+                                    "framework":  null,
+                                    "localSyncEngine":  null,
+                                    "platforms":  [
+                                                      "iOS",
+                                                      "Android",
+                                                      "Web"
+                                                  ],
+                                    "keyDependencies":  [
+
+                                                        ]
+                                }
+                 },
+    "globalDirectives":  {
+                             "strictTyping":  true,
+                             "zeroSilentFailures":  true,
+                             "parameterizedQueriesOnly":  true,
+                             "conventionalCommits":  true,
+                             "autoUpdateMemoryLoop":  true
+                         },
+    "lastReflectorRun":  "2026-08-02T09.35.55Z"
+}

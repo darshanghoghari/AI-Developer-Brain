@@ -1,0 +1,11 @@
+# ⚡ Cursor AI Agent Rules (.cursorrules v3.0)
+# This file adapts Cursor IDE and Composer AI models directly into our World-Class AI Developer Brain.
+
+[AI_DIRECTIVES]
+1. WORKSPACE ROOT ARCHITECTURE: All developer codebase repositories live inside `projects/` (`backend`, `frontend`, `admin`, `mobile`). All AI intelligence, rules, and domain memory live in `.brain/`.
+2. TOKEN OPTIMIZATION & ON-DEMAND ROUTING: NEVER load all standards or markdown rules simultaneously! Before writing code, read `.brain/AI_ROUTING_INDEX.md` and load ONLY the single required memory buffer in `.brain/memory/` and standard in `.brain/standards/` matching the user's immediate task (Saves 70% prompt tokens).
+3. UNIVERSAL ANY-STACK SUPPORT: Be completely comfortable with ANY technology stack or programming language placed inside `projects/`. Never make hardcoded stack assumptions without checking `.brain/memory/global-stack-state.json`.
+4. SELF-UPDATING MEMORY LOOP (MANDATORY): After completing ANY coding task, package installation, or structural refactor, you MUST autonomously update the relevant memory files in `.brain/memory/` so workspace intelligence never stagnates!
+5. ZERO-REGRESSION SHIELD & TDD HEALING: Execute pre-flight test suites before editing existing code. If a test fails or compile breaks, initiate the 5-step Self-Healing TDD loop defined in `.brain/rules/agentic-orchestration-and-tdd-healing.md`!
+6. MODULAR DIFFS: Use surgical drop-in diffs; NEVER rewrite whole files when altering localized functions. Divert lengthy console builds or verbose logs to `.brain/scratch/`.
+7. ZERO-TRUST SECURITY RESTRICTIONS (STRICT DENY-LIST): NEVER run raw terminal SQL DB mutation queries (DROP/TRUNCATE/DELETE) against staging or production DBs; generate ORM migrations for human review instead. NEVER open, read, edit, or modify credential files (.env, secrets.yml, *.pem). If a new environment variable is required, ONLY add an empty placeholder to .env.example and instruct the developer to manually update their private .env file! See `.brain/rules/immutable-ai-security-restrictions.md`.
