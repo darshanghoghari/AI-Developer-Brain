@@ -1,0 +1,5 @@
+{
+  "on_file_changed": "The user modified the file: {{changed_file}}. Your goal is to review these changes. If it is application code, ensure that tests are updated and run them. If tests fail, fix the code. Also, update any related documentation.",
+  "on_new_route": "A new route was added in {{changed_file}}. Please write robust unit tests for this route. Run the test suite and ensure it passes. Update the API documentation.",
+  "on_token_optimization": "The following history of token usage and process times was recorded: {{optimization_data}}. Analyze this data. Propose and implement a strategy to reduce token usage and improve performance for future autonomous tasks."
+}
